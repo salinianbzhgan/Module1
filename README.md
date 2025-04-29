@@ -1,4 +1,4 @@
-Ex:1 ## Conditional Statements in Python: Even or Odd Checker
+## Ex:1 Conditional Statements in Python: Even or Odd Checker
 ## Aim:
 To write a Python program to check whether the given number is even or odd using if...else statements.
 
@@ -23,6 +23,7 @@ else:
 
 ## Result:
 Thus the program has been successfully executed.
+
 
 ## EX1:Datatypes-Boolean Expression Evaluation in Python
 ## Aim:
@@ -55,6 +56,7 @@ print("d:", d)
 ## Result:
 Thus the program has been successfully executed.
 
+
 ## EX:1 Datatypes-Character Literal in Python
  ## Aim:
 To write a Python program that prints the characters 'T' and 'a' using character literals.
@@ -72,3 +74,50 @@ print('a')
 
 ## Result:
 Thus the program has been successfully executed.
+
+## EX1 Datatypes-Complex Number Creation in Python
+## Aim
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+## Algorithm
+Read an integer input from the user and assign it to the variable a (real part).
+Read another integer input from the user and assign it to the variable b (imaginary part).
+Create a complex number x using the complex(a, b) function.
+Print the complex number x.
+Print the real part of x using x.real.
+Print the imaginary part of x using x.imag.
+## Program:
+```
+a=int(input()) 
+b=int(input()) 
+x=complex(a,b) 
+print(x) 
+print(x.real) 
+print(x.imag)
+```
+
+## Output:
+![image](https://github.com/user-attachments/assets/022c2c04-31c4-4007-aa96-1e3ee30ef2b8)
+
+## Result:
+Thus the program has been successfully executed.
+
+## EX1 Datatypes-Read and Print a String in Python
+## Aim
+To write a Python program to read a string from the user and then print it.
+
+## Algorithm:
+Assign a variable named men_stepped_on_the_moon.
+Use input() to read a string from the user and store it in the variable.
+Print the value stored in the variable.
+## Program:
+```
+men_stepped_on_the_moon=input()  
+print(men_stepped_on_the_moon)
+```
+## Output:
+![image](https://github.com/user-attachments/assets/a4003475-d9f9-4fb4-b595-e47bcfc89698)
+
+
+## Result:
+ Thus, the program has been successfully execute.
